@@ -1,12 +1,89 @@
-
-@import url("https://fonts.googleapis.com/css2?family=Radio+Canada:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@400;500;600;700&display=swap');
 
 body {
-    background-image: url("https://cdn.pixabay.com/photo/2018/03/17/19/36/connection-3234929_1280.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    font-family: "Radio Canada", sans-serif;
-  }
-  
-/* Enter your styling here */
+  background-image: url("https://cdn.pixabay.com/photo/2018/03/17/19/36/connection-3234929_1280.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-family: "Radio Canada", sans-serif;
+}
+
+header {
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  font-size: 50px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  margin: 35px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  border: 3px solid black;
+  height: 75px;
+  width: 75px;
+  font-size: 50px;
+  font-weight: 500;  
+  text-align: center;
+  background: rgba(255,255,255,0.7);
+  color: #333;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background: #eee;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  color: black;
+  cursor: no-drop;
+}
+
+.result {
+  background: rgba(255,255,255,0.7);
+  max-width: 200px;
+  text-align: center;
+  padding: 10px;
+  margin: 15px auto;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.result h2 {
+  color: #fff;
+  text-align: center;  
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+  font-size: 25px;
+}
+
+.reset {
+  text-align: center;
+}
+
+#reset {
+  padding: 10px 25px;
+  font-size: 20px;
+  background: none;
+  border: 2px solid black;
+  color: black;  
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;  
+}
+
+#reset:hover {
+  background: #fff;
+  color: black;
+}

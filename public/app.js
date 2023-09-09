@@ -1,7 +1,7 @@
 // Initial game state
 let cells = ['', '', '', '', '', '', '', '', ''];
 let currentPlayer = 'X';
-let result = document.querySelector('.result'); 
+let result = document.querySelector('.result p'); 
 let btns = document.querySelectorAll('.btn');
 let conditions = [
   [0, 1, 2],
